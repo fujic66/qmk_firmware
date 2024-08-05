@@ -2,7 +2,7 @@
 
 ![jp81f](https://i.imgur.com/2nig7JA.jpeg)
 
-*This is Standard Japanese layout keyboard.*
+*This is standard Japanese layout keyboard.*
 
 * Keyboard Maintainer: [alektor_diy](https://github.com/sasami.mc41@gmail.com)
 * Hardware Supported: *The PCBs, controllers supported*
