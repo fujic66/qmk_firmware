@@ -1,20 +1,20 @@
 # jp81f
 
-![jp81f](imgur.com image replace me!)
+![jp81f](https://i.imgur.com/2nig7JA.jpeg)
 
-*A short description of the keyboard/project*
+*This is Standard Japanese layout keyboard.*
 
 * Keyboard Maintainer: [alektor_diy](https://github.com/sasami.mc41@gmail.com)
 * Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Availability: *in preparation*
 
 Make example for this keyboard (after setting up your build environment):
 
-    make jp81f:default
+    make jp81f:via
 
 Flashing example for this keyboard:
 
-    make jp81f:default:flash
+    make jp81f:via:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
