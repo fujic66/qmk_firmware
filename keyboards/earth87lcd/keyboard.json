@@ -1,7 +1,7 @@
 {
-    "manufacturer": "\u30a2\u30ec\u304f\u3068\u30fc\u308b",
-    "keyboard_name": "earth87",
-    "maintainer": "\u30a2\u30ec\u304f\u3068\u30fc\u308b",
+    "manufacturer": "alektor_diy",
+    "keyboard_name": "earth87lcd",
+    "maintainer": "alektordiy@gmail.com",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
     "features": {
@@ -18,11 +18,11 @@
         "rows": ["GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP13", "GP14", "GP15"]
     },
     
-    "encorder": {
+    "encoder": {
         "rotary": [
-            { "pin_a": "GP0", "pin_b": "GP1", "resolution": 2 }
+                { "pin_a": "GP0", "pin_b": "GP1", "resolution": 2 },
         ]
-    }
+    },
     
     "processor": "RP2040",
     "url": "",
