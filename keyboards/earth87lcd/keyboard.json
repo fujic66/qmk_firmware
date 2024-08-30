@@ -20,7 +20,7 @@
     
     "encoder": {
         "rotary": [
-                { "pin_a": "GP0", "pin_b": "GP1", "resolution": 2 },
+                { "pin_a": "GP0", "pin_b": "GP1", "resolution": 4 },
         ]
     },
     

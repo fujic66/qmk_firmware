@@ -4,5 +4,6 @@
 
 #define MASTER_RIGHT
 
-#define ENCODERS_PAD_A { F4 }
-#define ENCODERS_PAD_B { F5 }
+#define ENCODER_A_PINS_RIGHT { F4 }
+#define ENCODER_B_PINS_RIGHT { F5 }
+#define ENCODER_RESOLUTION_RIGHT 2
