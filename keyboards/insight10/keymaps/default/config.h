@@ -1,0 +1,6 @@
+#pragma once
+
+#define DYNAMIC_KEYMAP_LAYER_COUNT 10
+
+#define OLED_DISPLAY_WIDTH 128
+#define OLED_DISPLAY_HEIGHT 32
