@@ -1,8 +1,8 @@
 {
-    "manufacturer": "alektor_diy",
+    "manufacturer": "A'sKey",
     "keyboard_name": "earth95s",
-    "maintainer": "alektordiy@gmail.com",
-    "development_board": "promicro",
+    "maintainer": "A'sKey",
+    "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
@@ -13,31 +13,36 @@
         "nkro": false
     },
     "matrix_pins": {
-        "cols": ["D0", "D4", "C6", "D7", "E6", "B4", "B5", "D3", "D2"],
-        "rows": ["F6", "F7", "B1", "B3", "B2", "B6"]
+        "cols": ["GP0", "GP1", "GP2", "GP4", "GP5", "GP6", "GP7", "NO_PIN", "NO_PIN"],
+        "rows": ["GP28", "GP27", "GP26", "GP15", "GP14", "GP13"]
     },
+    "processor": "RP2040",
     "url": "",
     "usb": {
-        "device_version": "1.0.0",
+        "device_version": "2.0.0",
         "pid": "0x0003",
         "vid": "0x4144"
     },
-    
     "split": {
         "enabled": true,
         "transport": {
             "protocol": "serial"
         },
-        "soft_serial_pin": "D1",
+        "soft_serial_pin": "GP29",
+        "matrix_pins": {
+            "right": {
+                "cols": ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8"],
+                "rows": ["GP28", "GP27", "GP26", "GP15", "GP14", "GP13"]
+            }
+        },
         "encoder": {
             "right": {
                 "rotary": [
-                    { "pin_a": "F4", "pin_b": "F5", "resolution": 4 },
+                    { "pin_a": "GP11", "pin_b": "GP12", "resolution": 4 },
                 ]
             }
         }
     },
-    
     "layouts": {
         "LAYOUT": {
             "layout": [
